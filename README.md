@@ -43,22 +43,27 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+<img width="508" height="169" alt="Screenshot 2026-01-30 102911" src="https://github.com/user-attachments/assets/f00264a8-f90e-4d88-8d91-b92037b776ca" />
 
 
 cat < file2
 ## OUTPUT
+<img width="491" height="186" alt="Screenshot 2026-01-30 102918" src="https://github.com/user-attachments/assets/90ee85da-f9fd-46e0-a2ff-773e7e455330" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="561" height="58" alt="Screenshot 2026-01-30 102927" src="https://github.com/user-attachments/assets/f514e21b-ac59-4d38-9a8c-40e4106ca703" />
+
 comm file1 file2
  ## OUTPUT
+<img width="569" height="298" alt="Screenshot 2026-01-30 102938" src="https://github.com/user-attachments/assets/6db08d57-58bc-4100-9827-7cc7412cdf0d" />
 
  
 diff file1 file2
 ## OUTPUT
+<img width="517" height="223" alt="Screenshot 2026-01-30 103005" src="https://github.com/user-attachments/assets/47232e30-3fea-4a1e-9050-ec745ca396f0" />
 
 
 #Filters
@@ -83,16 +88,19 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="517" height="93" alt="Screenshot 2026-01-30 103015" src="https://github.com/user-attachments/assets/9b094fa8-45ed-4523-a881-2ac9c176d7df" />
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+<img width="531" height="114" alt="Screenshot 2026-01-30 103021" src="https://github.com/user-attachments/assets/c2f5d4d5-5062-414d-a096-687b82020530" />
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="542" height="110" alt="Screenshot 2026-01-30 103028" src="https://github.com/user-attachments/assets/36f65e30-3fa8-4fea-b089-b793cc592507" />
 
 
 cat < newfile 
@@ -108,22 +116,26 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="559" height="41" alt="Screenshot 2026-01-30 103036" src="https://github.com/user-attachments/assets/a864e030-f204-4623-90c3-5e166f06a976" />
 
 
 grep hello newfile 
 ## OUTPUT
 
+<img width="526" height="64" alt="Screenshot 2026-01-30 103043" src="https://github.com/user-attachments/assets/dbae6953-be1c-412e-909b-5c7dbbd1673a" />
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+<img width="555" height="68" alt="Screenshot 2026-01-30 103051" src="https://github.com/user-attachments/assets/fcd9183d-5156-48ca-990f-33629fdb3b9a" />
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+<img width="580" height="68" alt="Screenshot 2026-01-30 103058" src="https://github.com/user-attachments/assets/c7dd8981-13ec-4915-b2f6-b42a9503f5a9" />
 
 
 
@@ -131,16 +143,19 @@ cat newfile | grep -i -c "hello"
 ## OUTPUT
 
 
+<img width="1023" height="306" alt="Screenshot 2026-01-30 103105" src="https://github.com/user-attachments/assets/f7a63a28-f2c2-4cf0-aa89-abe171ef29a5" />
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="651" height="61" alt="Screenshot 2026-01-30 103116" src="https://github.com/user-attachments/assets/bce56020-1ff0-47f4-9cae-900987bbefc4" />
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
 
+<img width="516" height="75" alt="Screenshot 2026-01-30 103123" src="https://github.com/user-attachments/assets/54d78347-165a-4b60-8100-59c4010b12f5" />
 
 cat < newfile 
 ```
